@@ -146,7 +146,7 @@ TiMapCluster.prototype._midPoint = function(_points) {
 	
 	return {
 		latitude: sumLat / _points.length,
-		longitude: sumLon / _points.length,
+		longitude: sumLon / _points.length
 	}
 }
 
